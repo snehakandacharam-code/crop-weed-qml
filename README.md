@@ -168,7 +168,7 @@ backend: aer_simulator_statevector
 | QSVC | 0.850 | 0.771 | 1.000 | 0.871 | 152.4 ± 11.3 | 0 (≈100 SVs) |
 | VQC | 0.887 | 0.872 | 0.902 | 0.887 | 198.7 ± 14.6 | 30 |
 
-Latency std is what Figure 5's error bars are built from (`--latency-runs 100`).
+
 
 ---
 
