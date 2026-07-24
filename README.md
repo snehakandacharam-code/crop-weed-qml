@@ -172,23 +172,13 @@ Latency std is what Figure 5's error bars are built from (`--latency-runs 100`).
 
 ---
 
-## 7. Reviewer response — what changed in the code vs. the paper
-
-| Reviewer point | Where it is addressed here |
-|---|---|
-| Uniform citation style | (Manuscript-only — see the covering letter.) |
-| "1,300 images vs. 2,072 instances" clarification | `src/data.py` docstring + this README §3 |
-| CNN parameter discrepancy (~1 M vs. ~100 k) | `src/models/cnn.py` prints exact count via `torchinfo`; `docs/parameter_audit.md` reconciles |
-| Error bars on Figure 5 latency | `src/evaluate.py --latency-runs 100` writes mean + std; `scripts/make_figures.py` renders bars with `yerr` |
-| Amplitude vs. angle encoding rationale | `src/encoding_study.py` + `docs/encoding_note.md` |
-| Reproducibility (seeds, hyperparameters, splits) | `src/seed.py`, `configs/*.yaml`, `data/processed/splits.json` |
 
 ---
 
-## 8. License
+## 7. License
 
 MIT. See `LICENSE`.
 
-## 9. Citation
+## 8. Citation
 
 If you use this repository, please cite the paper and this codebase (see `CITATION.cff`).
