@@ -172,13 +172,3 @@ Latency std is what Figure 5's error bars are built from (`--latency-runs 100`).
 
 ---
 
-
----
-
-## 7. License
-
-MIT. See `LICENSE`.
-
-## 8. Citation
-
-If you use this repository, please cite the paper and this codebase (see `CITATION.cff`).
