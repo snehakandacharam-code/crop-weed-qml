@@ -28,9 +28,9 @@ crop-weed-qml/
 │   └── vqc.yaml
 ├── src/
 │   ├── __init__.py
-│   ├── seed.py                 # global seeding for full reproducibility
-│   ├── data.py                 # dataset download, YOLO-box crop, split
-│   ├── preprocess.py           # CNN transforms + PCA(5) for QML
+│   ├── seed.py                 
+│   ├── data.py                 
+│   ├── preprocess.py           
 │   ├── models/
 │   │   ├── cnn.py
 │   │   ├── qsvc.py
@@ -38,10 +38,10 @@ crop-weed-qml/
 │   ├── train_cnn.py
 │   ├── train_qsvc.py
 │   ├── train_vqc.py
-│   ├── evaluate.py             # accuracy, precision, recall, F1, latency (with error bars)
-│   ├── encoding_study.py       # amplitude vs. angle encoding (Fig. 8)
-│   ├── depth_study.py          # VQC accuracy / training time vs. circuit depth (Figs. 6, 7)
-│   └── pca_study.py            # VQC accuracy vs. PCA components (Fig. 9)
+│   ├── evaluate.py            
+│   ├── encoding_study.py       
+│   ├── depth_study.py          
+│   └── pca_study.py            
 ├── scripts/
 │   ├── download_dataset.sh
 │   ├── run_all.sh
