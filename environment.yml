@@ -1,0 +1,23 @@
+name: crop-weed-qml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.26
+  - scipy>=1.11
+  - scikit-learn>=1.4
+  - pandas>=2.2
+  - pyyaml>=6.0
+  - tqdm>=4.66
+  - matplotlib>=3.8
+  - pillow>=10.2
+  - pip:
+      - torch>=2.3
+      - torchvision>=0.18
+      - torchinfo>=1.8
+      - opencv-python-headless>=4.9
+      - qiskit>=1.1
+      - qiskit-aer>=0.14
+      - qiskit-machine-learning>=0.7
+      - qiskit-algorithms>=0.3
